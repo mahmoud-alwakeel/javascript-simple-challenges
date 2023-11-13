@@ -19,3 +19,5 @@ let myNumbers = [20, 50, 10, 60];
 let calc = (one, two, ...nums) =>  one * (two + +nums);
 
 console.log(calc(10, myNumbers.length, myNumbers.length)); // 80
+
+// there is something wasn't explained totly here 
