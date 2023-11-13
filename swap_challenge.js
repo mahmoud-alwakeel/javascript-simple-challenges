@@ -16,3 +16,9 @@ function swap(word) {
     return swapped.join("")
 }
 console.log(swap(swappingCases))
+
+
+// another way using .map
+
+let sw = swappingCases.split("").map((a) => a === a.toUpperCase() ? a.toLowerCase() : a.toUpperCase()).join("");
+console.log(sw)
